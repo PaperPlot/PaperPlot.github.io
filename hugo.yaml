@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://paperplot.github.io/
 languageCode: en-us
 title: My New Hugo Site
 paginate: 10
