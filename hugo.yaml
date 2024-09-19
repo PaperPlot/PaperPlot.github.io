@@ -138,8 +138,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
-markup:
   goldmark:
     extensions:
       passthrough:
@@ -155,5 +153,3 @@ markup:
           - - $
             - $
         enable: true
-params:
-  math: true
