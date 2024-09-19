@@ -35,10 +35,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
-
-# MACE: A Novel Framework for Mass Concept Erasure in Text-to-Image Diffusion Models
-
 ![MACE Overview](0_overview.png#center)
 
 *Figure 1: Overview of the MACE framework*
