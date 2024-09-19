@@ -3,7 +3,7 @@ title: "Concept Weaver: Enabling Multi-Concept Fusion in Text-to-Image Models"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["mace"]
+tags: ["Concepts", "Diffusion", "Text-to-Image"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
