@@ -3,7 +3,7 @@ title: "GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audi
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Concepts", "Diffusion", "Text-to-Image"]
+tags: ["Gaussian Splat", "Talking Head", "Head"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true

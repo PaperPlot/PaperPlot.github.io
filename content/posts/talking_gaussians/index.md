@@ -1,4 +1,41 @@
-# TalkingGaussian: Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting
+---
+title: "TalkingGaussian: Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting"
+date: 2020-09-15T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["Gaussian Splat", "Talking Head", "Head"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Desc Text."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+
 
 ![TalkingGaussian Overview](0_teaser.png)
 *Figure 1: TalkingGaussian outperforms previous NeRF-based methods in synthesizing more precise and clear talking heads by keeping a persistent head structure and predicting deformation to represent facial motion.*
