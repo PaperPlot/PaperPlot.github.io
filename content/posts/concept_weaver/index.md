@@ -37,6 +37,7 @@ editPost:
 ---
 
 
+
 ![Concept Weaver's Generation Results](0_Ours_first.jpg)
 *Figure 1: Concept Weaver's Generation Results. Our method, Concept Weaver, can inject the appearance of arbitrary off-the-shelf concepts (from a Bank of Concepts) to generate realistic images.*
 
@@ -54,6 +55,9 @@ Text-to-image generation has made remarkable strides in recent years, with model
 In this blog post, we'll dive deep into Concept Weaver, a groundbreaking method introduced by Kwon et al. [2] that addresses these limitations. We'll explore how Concept Weaver breaks down the multi-concept generation process, its key components, and its impressive results compared to existing approaches.
 
 ## The Concept Weaver Method
+
+![Concept Weaver's Pipeline](Fig_concept4.png)
+*Figure: First, we fine-tune a text-to-timage model for each target concept in the bank (Step 1). Then we source a template image (Step 2). Given the template image,  we apply the inversion process with simultaneous feature extraction to save its structural information (Step 3). In Step 4, we extract region masks from the template image with off-the-shelf models \cite{sam}. With extracted features and masks, we generate the multi-concept image in Step 5.*
 
 Concept Weaver takes a novel approach to multi-concept image generation by breaking the process into two main steps:
 
@@ -79,6 +83,9 @@ The authors only fine-tune the 'key' and 'value' weight parameters $W^k$ and $W^
 Instead of generating a personalized image from scratch, Concept Weaver starts with a template image that aligns with the semantics of the input prompt. This template can be generated using existing text-to-image models or sourced from real images if available.
 
 ### Step 3: Inversion and Feature Extraction
+
+![Inversion and Feature Extraction](Fig_feat.png)
+*Figure: (a) To extract and save the structural information of template images, we save the intermediate latent of images during the DDIM forward process. With the fully inverted noise, we extract the feature outputs from denoising U-Net during the DDIM reverse process. (b) From the noisy inverted latent, we start the multi-concept fusion generation. We denoise the noisy image with fine-tuned personalized models. After obtaining multiple cross-attention layer features, we fuse the different features from each masked region. In this step, we inject the pre-calculated self-attention and resnet features into the networks.*
 
 Once a template image is obtained, the method applies an inversion process to extract latent representations that will guide the generation process. This step borrows from the image inversion and feature extraction schemes proposed in Plug-and-Play diffusion (PNP) [4].
 
