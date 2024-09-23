@@ -36,7 +36,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-![Object Erasure Results](3_teaser1.png#center)
+![Object Erasure Results](3_teaser1.png)
 
 *Figure 1: Example results of object erasure*
 
@@ -79,7 +79,7 @@ MACE is designed to erase a large number of concepts from pretrained text-to-ima
 1. A pretrained model
 2. A set of target phrases expressing the concepts to be removed
 
-![MACE Overview](0_overview.png#center)
+![MACE Overview](0_overview.png)
 
 *Figure 2: Overview of the MACE framework*
 
@@ -89,7 +89,7 @@ The framework returns a finetuned model incapable of generating images depicting
 
 The first step in MACE is to remove the residual information of target concepts from co-existing words in the prompt. This is achieved through a closed-form refinement of the cross-attention modules.
 
-![Closed-Form Refinement](1_close-form_v2.png#center)
+![Closed-Form Refinement](1_close-form_v2.png)
 
 *Figure 3: Illustration of closed-form cross-attention refinement*
 
@@ -118,7 +118,7 @@ This refinement encourages the model to refrain from embedding residual informat
 
 After removing residual information, MACE focuses on erasing the intrinsic information within the target phrase itself. This is achieved using Low-Rank Adaptation (LoRA) modules.
 
-![LoRA Training](2_new_lora1.png#center)
+![LoRA Training](2_new_lora1.png)
 
 *Figure 4: Training process with LoRA to erase intrinsic information*
 
@@ -192,7 +192,7 @@ Let's look at some key results from these experiments.
 
 For object erasure, the authors used the CIFAR-10 dataset and evaluated the methods on erasing each of the 10 object classes. They measured efficacy, specificity, and generality using CLIP classification accuracies.
 
-![Celebrity Erasure Results](4_cele_results.png#center)
+![Celebrity Erasure Results](4_cele_results.png)
 
 *Figure 5: Evaluation results for celebrity erasure*
 
