@@ -35,9 +35,10 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-![MACE Overview](0_overview.png#center)
 
-*Figure 1: Overview of the MACE framework*
+![Object Erasure Results](3_teaser1.png#center)
+
+*Figure 1: Example results of object erasure*
 
 ## TL;DR
 
@@ -78,6 +79,10 @@ MACE is designed to erase a large number of concepts from pretrained text-to-ima
 1. A pretrained model
 2. A set of target phrases expressing the concepts to be removed
 
+![MACE Overview](0_overview.png#center)
+
+*Figure 2: Overview of the MACE framework*
+
 The framework returns a finetuned model incapable of generating images depicting the targeted concepts. Let's break down the key components of MACE:
 
 ### 1. Closed-Form Cross-Attention Refinement
@@ -86,7 +91,7 @@ The first step in MACE is to remove the residual information of target concepts 
 
 ![Closed-Form Refinement](1_close-form_v2.png#center)
 
-*Figure 2: Illustration of closed-form cross-attention refinement*
+*Figure 3: Illustration of closed-form cross-attention refinement*
 
 The objective function for this refinement is:
 
@@ -115,7 +120,7 @@ After removing residual information, MACE focuses on erasing the intrinsic infor
 
 ![LoRA Training](2_new_lora1.png#center)
 
-*Figure 3: Training process with LoRA to erase intrinsic information*
+*Figure 4: Training process with LoRA to erase intrinsic information*
 
 The loss function for this step is designed to suppress the activation in certain regions of the attention maps corresponding to the target phrase tokens:
 
@@ -187,9 +192,10 @@ Let's look at some key results from these experiments.
 
 For object erasure, the authors used the CIFAR-10 dataset and evaluated the methods on erasing each of the 10 object classes. They measured efficacy, specificity, and generality using CLIP classification accuracies.
 
-![Object Erasure Results](3_teaser1.png#center)
+![Celebrity Erasure Results](4_cele_results.png#center)
 
-*Figure 4: Example results of object erasure*
+*Figure 5: Evaluation results for celebrity erasure*
+
 
 The results showed that MACE achieved the highest harmonic mean across the erasure of nine object classes, demonstrating superior erasure capabilities and an effective balance between specificity and generality.
 
@@ -197,9 +203,7 @@ The results showed that MACE achieved the highest harmonic mean across the erasu
 
 The celebrity erasure task involved erasing 1, 5, 10, and 100 celebrities from a dataset of 200 recognizable celebrities. The authors evaluated efficacy using the GIPHY Celebrity Detector (GCD) and measured specificity on retained celebrities and regular content.
 
-![Celebrity Erasure Results](4_cele_results.png#center)
 
-*Figure 5: Evaluation results for celebrity erasure*
 
 MACE showed a notable enhancement in overall erasure performance, particularly when erasing 100 concepts. It maintained a good balance between efficacy and specificity, outperforming other methods.
 
