@@ -7,7 +7,7 @@ tags: ["Concepts", "Diffusion", "Text-to-Image"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false

@@ -7,7 +7,7 @@ tags: ["Diffusion", "Text-to-Image", "Alignment", "Self-correcting", "LLM"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false

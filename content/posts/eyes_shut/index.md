@@ -3,11 +3,11 @@ title: "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Concepts", "Diffusion", "Interpretability", "Safety"]
+tags: ["Multimodal", "LLM", "CLIP", "Benchmark", "VLLM"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false

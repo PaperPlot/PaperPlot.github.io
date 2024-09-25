@@ -7,7 +7,7 @@ tags: ["Gaussian Splat", "Talking Head", "Head"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false
