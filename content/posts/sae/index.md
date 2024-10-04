@@ -11,7 +11,7 @@ TocOpen: true
 draft: false
 hidemeta: false
 comments: false
-description: "A Deep Dive into Interpretable and Controllable AI Generation"
+description: ""
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -37,7 +37,6 @@ editPost:
 ---
 
 ![Banner Image](0_sparse_coding_overview_1309.png)
-
 *Figure 1: An overview of the sparse autoencoder method for interpreting language model features.*
 
 ## TLDR
