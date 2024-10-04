@@ -37,6 +37,7 @@ editPost:
 ---
 
 ![Banner Image](0_sparse_coding_overview_1309.png)
+
 *Figure 1: An overview of the sparse autoencoder method for interpreting language model features.*
 
 ## TLDR
