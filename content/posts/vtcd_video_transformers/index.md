@@ -112,7 +112,7 @@ To handle transformer's robustness to perturbations, VTCD introduces CRIS (Conce
 2. Mask concepts at every layer:
    $$\hat y_k = g(\tilde{\mathbf{B}}_{\mathbf{C}^k_L} \odot f_{[L-1,L]} (\cdots( \tilde{\mathbf{B}}_{\mathbf{C}^k_{1}} \odot f_{[0,1]} (\mathbf{X}) ) ) )$$
 3. Calculate importance scores:
-   $$s_i = \frac{1}{K} \sum_k^K (\mathbb{D}(\tilde y, y)-\mathbb{D}(\hat y_k, y)) \mathbbm{1}_{c_i \in \mathbf{C}^k}$$
+   $$s_i = \frac{1}{K} \sum_k^K (\mathbb{D}(\tilde y, y)-\mathbb{D}(\hat{y_k}, y)) \mathbb{1}_{c_i \in \mathbf{C}^k}$$
 
 ## Universal Mechanisms in Video Transformers
 
