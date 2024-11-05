@@ -1,7 +1,7 @@
 
 ---
 title: "OmniDrive: Holistic LLM-Agents for Autonomous Driving with 3D Perception, Reasoning and Planning"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ['autonomous driving', 'large language models', '3D perception', 'reasoning', 'planning', 'multimodal learning', 'computer vision', 'deep learning']

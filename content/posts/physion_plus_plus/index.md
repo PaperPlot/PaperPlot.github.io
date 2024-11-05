@@ -1,7 +1,7 @@
 
 ---
 title: "Physion++: A New Benchmark for Physical Property Inference in AI"
-date: 2024-11-05T11:06:11.876802
+date: 2024-11-04T11:06:11.876802
 # weight: 1
 # aliases: ["/first"]
 tags: ['physical scene understanding', 'AI benchmarks', 'latent property inference', 'physics prediction', 'object-centric models', 'human-like reasoning']

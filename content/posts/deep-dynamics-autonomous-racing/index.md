@@ -1,7 +1,7 @@
 
 ---
 title: "Deep Dynamics: Physics-Informed Neural Networks for Vehicle Modeling in Autonomous Racing"
-date: 2024-11-05T11:09:20.397158
+date: 2024-10-05T11:09:20.397158
 # weight: 1
 # aliases: ["/first"]
 tags: ['autonomous racing', 'vehicle dynamics', 'physics-informed neural networks', 'deep learning', 'model predictive control']

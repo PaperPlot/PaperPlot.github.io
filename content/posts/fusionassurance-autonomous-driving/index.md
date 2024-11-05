@@ -1,7 +1,7 @@
 
 ---
 title: "FusionAssurance: Enhancing End-to-End Autonomous Driving with Physics-Informed Safety Controllers"
-date: 2024-11-05T11:07:54.803214
+date: 2024-11-04T11:07:54.803214
 # weight: 1
 # aliases: ["/first"]
 tags: ['autonomous driving', 'end-to-end learning', 'safety controllers', 'model predictive control', 'potential fields', 'deep learning', 'computer vision', 'CARLA benchmark']

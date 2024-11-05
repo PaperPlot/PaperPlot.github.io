@@ -1,7 +1,7 @@
 
 ---
 title: "DriveLM: Advancing Autonomous Driving with Graph Visual Question Answering"
-date: 2024-11-15T11:30:03+00:00
+date: 2024-10-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ['autonomous driving', 'vision-language models', 'graph visual question answering', 'end-to-end driving', 'generalization', 'DriveLM', 'GVQA']

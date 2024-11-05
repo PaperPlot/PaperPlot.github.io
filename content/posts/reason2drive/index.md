@@ -1,7 +1,7 @@
 
 ---
 title: "Reason2Drive: Advancing Interpretable Reasoning for Autonomous Driving with Large Vision-Language Models"
-date: 2024-11-05T11:01:53.708641
+date: 2024-10-05T11:01:53.708641
 # weight: 1
 # aliases: ["/first"]
 tags: ['autonomous driving', 'vision-language models', 'interpretable reasoning', 'chain-based reasoning', 'benchmark dataset', 'evaluation metric', 'perception', 'prediction', 'reasoning']

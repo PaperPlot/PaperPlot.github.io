@@ -1,7 +1,7 @@
 
 ---
 title: "Grounding Physical Concepts Through Dynamic Visual Reasoning: A Deep Dive into the Dynamic Concept Learner"
-date: 2024-11-05T11:03:56.994338
+date: 2024-11-04T11:03:56.994338
 # weight: 1
 # aliases: ["/first"]
 tags: ['dynamic visual reasoning', 'neural-symbolic AI', 'physical concept grounding', 'video understanding', 'causal reasoning', 'CLEVRER benchmark', 'object tracking', 'dynamics prediction', 'program execution']
