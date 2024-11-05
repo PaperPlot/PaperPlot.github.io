@@ -208,11 +208,6 @@ Key observations:
 
 ### Counterfactual Reasoning and Captioning
 
-Table 2 provides a comprehensive analysis of model performance on counterfactual reasoning and captioning tasks:
-
-![Reasoning and Captioning Results](3_table2.png)
-
-*Table 2: Analysis on the OmniDrive-nuScenes benchmark.*
 
 Key findings:
 
@@ -224,19 +219,9 @@ Key findings:
 
 The authors also evaluated OmniDrive on the NuScenes-QA benchmark [11], comparing it to other state-of-the-art methods:
 
-![NuScenes-QA Results](4_nuscenesqa.png)
-
-*Table 3: Results on NuScenes-QA. L and C represent Lidar and Camera modalities, respectively.*
-
 OmniDrive achieves an accuracy of 59.2% using only camera inputs, outperforming other camera-based methods and approaching the performance of lidar-based models.
 
 ### Open-loop Planning
-
-Table 4 compares OmniDrive with previous state-of-the-art vision-based planners on open-loop planning tasks:
-
-![Open-loop Planning Results](5_tab:sota-plan.png)
-
-*Table 4: Comparison on open-loop planning tasks.*
 
 Key takeaways:
 

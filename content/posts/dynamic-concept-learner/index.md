@@ -186,19 +186,11 @@ During inference, DCL:
 
 DCL achieves state-of-the-art performance on the CLEVRER benchmark, which tests descriptive, explanatory, predictive, and counterfactual reasoning about physical scenes. Importantly, it does this without requiring any explicit annotations of object properties or collision events during training.
 
-Here are some key results:
-
-![CLEVRER Results](3_table1.png)
-
-*Table 1: Question-answering accuracy on CLEVRER*
 
 We can see that DCL outperforms previous methods across all question types, with particularly large gains on predictive and counterfactual questions. This demonstrates its strong capability for temporal and causal reasoning.
 
 What's especially impressive is that DCL learns to ground object and event concepts purely from question-answering, without explicit labels:
 
-![Concept Grounding Results](4_table2.png)
-
-*Table 2: Evaluation of video concept learning*
 
 The model achieves high accuracy in recognizing static attributes (color, shape, material), dynamic attributes (moving, stationary), and events (in, out, collision).
 
@@ -210,10 +202,6 @@ To further evaluate DCL's capabilities, the authors introduced two new benchmark
 2. CLEVRER-Retrieval: Finding semantically related videos for text queries and vice versa.
 
 DCL generalizes remarkably well to these new tasks without any additional training:
-
-![Grounding and Retrieval Results](5_table3_4.png)
-
-*Table 3 & 4: Results on CLEVRER-Grounding and CLEVRER-Retrieval*
 
 This demonstrates that DCL learns genuinely useful representations of objects, events, and their relationships that transfer to new contexts.
 
