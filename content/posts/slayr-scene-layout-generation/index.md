@@ -187,7 +187,7 @@ As the field of AI-generated content continues to evolve, approaches like SLayR 
 
 ## References
 
-1. Braunstein, C., Petekkaya, H., Lenssen, J. E., Toneva, M., & Ilg, E. (2025). SLayR: Scene Layout Generation with Rectified Flow. CVPR 2025.
+1. Braunstein, C., Petekkaya, H., Lenssen, J. E., Toneva, M., & Ilg, E. (2025). SLayR: Scene Layout Generation with Rectified Flow. arXiv preprint:2412.05003
 
 2. Liu, C., Gu, J., Furukawa, Y., & Kautz, J. (2022). Flow Straight and Fast: Learning to Generate and Transfer 3D Shapes from Few Images. arXiv preprint arXiv:2201.05139.
 
