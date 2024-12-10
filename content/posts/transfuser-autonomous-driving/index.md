@@ -210,10 +210,6 @@ The authors evaluate TransFuser on two main benchmarks:
 
 ### Longest6 Benchmark Results
 
-![Longest6 Results](2_longest6_results.png)
-
-*Table 1: Comparison of TransFuser with baseline methods on the Longest6 benchmark.*
-
 Key findings:
 
 - TransFuser achieves the highest Driving Score (DS) of 47.30, significantly outperforming other methods
@@ -221,10 +217,6 @@ Key findings:
 - TransFuser shows particular improvement in handling complex scenarios like unprotected turns and intersections
 
 ### CARLA Leaderboard Results
-
-![Leaderboard Results](3_leaderboard_results.png)
-
-*Table 2: Performance on the CARLA autonomous driving leaderboard.*
 
 On the official CARLA leaderboard:
 
@@ -238,10 +230,6 @@ The authors conduct extensive ablation studies to understand the impact of diffe
 1. **Importance of Multi-Scale Fusion**: Fusing features at multiple scales throughout the network is crucial for performance.
 2. **Auxiliary Tasks**: The addition of auxiliary tasks like depth prediction and semantic segmentation improves overall driving performance.
 3. **Attention Visualization**: Analysis of attention maps shows that TransFuser learns to focus on important areas like vehicles and traffic lights at intersections.
-
-![Attention Maps](4_attn_map.png)
-
-*Figure 3: Visualization of attention maps, showing how TransFuser attends to relevant parts of the scene.*
 
 ## Discussion and Future Directions
 

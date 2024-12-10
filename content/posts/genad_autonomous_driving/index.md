@@ -74,11 +74,6 @@ One of the major contributions of this work is the creation of OpenDV-2K, a mass
 
 6. **Sensor Configurations**: Unrestricted camera setups, enhancing robustness to different sensor types
 
-Table 1 provides a comparison of OpenDV-2K with existing datasets:
-
-![Dataset comparison](1_dataset_compare.png)
-*Table 1: Comparison of OpenDV-2K with existing driving datasets*
-
 The creation of OpenDV-2K involved several key steps:
 
 1. **Data Collection**: Carefully curated 2139 high-quality front-view driving videos from 43 YouTubers.
@@ -145,17 +140,11 @@ The authors conducted extensive experiments to evaluate GenAD's performance acro
 
 ### Zero-shot Video Prediction
 
-GenAD demonstrates remarkable zero-shot generalization ability across unseen datasets, including YouTube, Waymo, KITTI, and Cityscapes. Figure 2 shows qualitative results comparing GenAD with other state-of-the-art models:
-
-![Zero-shot video prediction comparison](2_compare-videogen.png)
-*Figure 2: Zero-shot video prediction results on unseen datasets. GenAD (bottom row) shows superior generalization and visual quality compared to other models.*
+GenAD demonstrates remarkable zero-shot generalization ability across unseen datasets, including YouTube, Waymo, KITTI, and Cityscapes. Figure 2 shows qualitative results comparing GenAD with other state-of-the-art models.
 
 ### Comparison with nuScenes Experts
 
-The authors also compared GenAD with models specifically trained on the nuScenes dataset. Table 2 shows the quantitative results:
-
-![Comparison with nuScenes experts](3_sota_nus.png)
-*Table 2: Video generation quality compared to state-of-the-art models trained on nuScenes*
+The authors also compared GenAD with models specifically trained on the nuScenes dataset. Table 2 shows the quantitative results.
 
 GenAD outperforms all previous methods in both image fidelity (FID) and video coherence (FVD), significantly reducing FVD by 44.5% compared to the next best model.
 
@@ -168,17 +157,11 @@ GenAD can generate diverse future predictions based on different textual instruc
 
 ### Action-conditioned Prediction
 
-By fine-tuning GenAD with future trajectories as additional conditions, the model can simulate diverse futures following different ego intentions. Table 3 shows the quantitative results:
-
-![Action-conditioned prediction results](5_res_action_condition.png)
-*Table 3: Action-conditioned prediction results. GenAD-act enables more precise future predictions that follow the action condition.*
+By fine-tuning GenAD with future trajectories as additional conditions, the model can simulate diverse futures following different ego intentions. Table 3 shows the quantitative results.
 
 ### Planning
 
-The authors demonstrate that GenAD's learned representations can be effectively used for motion planning tasks. Table 4 shows the planning results on nuScenes:
-
-![Planning results](6_res_plan.png)
-*Table 4: Open-loop planning results. A lightweight MLP with frozen GenAD achieves competitive planning results with 73× fewer trainable parameters and front-view image alone.*
+The authors demonstrate that GenAD's learned representations can be effectively used for motion planning tasks. Table 4 shows the planning results on nuScenes.
 
 ## Discussion and Future Directions
 

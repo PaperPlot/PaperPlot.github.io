@@ -40,10 +40,6 @@ editPost:
 
 # LISO: Lidar-only Self-Supervised 3D Object Detection
 
-![LISO Overview](figs/eyecatcher/bk_render_segment-11388947676680954806_5427_320_5447_320_with_camera_labels_0000_top_down_ortho_lidar_all__gt_boxes__pred_boxes__black.jpg)
-
-*Figure 1: Objects predicted by LISO using no manual annotations. Red boxes are ground truth, yellow boxes are predictions.*
-
 ## TL;DR
 
 - LISO is a novel self-supervised method for training state-of-the-art LiDAR object detection networks using only unlabeled sequences of LiDAR point clouds.

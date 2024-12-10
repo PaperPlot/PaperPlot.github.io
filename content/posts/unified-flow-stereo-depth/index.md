@@ -164,10 +164,7 @@ We evaluate our unified model, which we call GMFlow (Global Matching Flow), on m
 
 ### Optical Flow
 
-On the challenging Sintel benchmark, GMFlow outperforms RAFT with significantly fewer refinement iterations:
-
-![Optical flow performance](1_flow_iter_vs_epe.png)
-*Figure 2: End-point-error vs number of refinements for optical flow on Sintel (clean).*
+On the challenging Sintel benchmark, GMFlow outperforms RAFT with significantly fewer refinement iterations.
 
 GMFlow achieves state-of-the-art results on Sintel (clean) and highly competitive performance on other benchmarks:
 
