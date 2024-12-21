@@ -146,10 +146,6 @@ The authors evaluate their approach on the Digit humanoid robot, a full-sized pl
 
 ### Real-World Deployment
 
-![Humanoid walking in San Francisco](2_sf.png)
-
-*The humanoid robot walking on various terrains in San Francisco*
-
 One of the most impressive results is the zero-shot transfer to real-world locomotion. The authors deploy their trained policy on the Digit robot in various locations around San Francisco over the course of a week. The robot successfully navigates different surfaces, including:
 
 - Walkways

@@ -38,10 +38,6 @@ editPost:
 
 # Span-Based Optimal Sample Complexity for Weakly Communicating and General Average Reward MDPs
 
-![Banner image](0_banner_image.png)
-
-*A visual representation of the span-based approach for optimal sample complexity in MDPs*
-
 ## TLDR
 
 This paper presents groundbreaking results on the sample complexity of learning near-optimal policies in average-reward Markov Decision Processes (MDPs) using a generative model. The key contributions are:
