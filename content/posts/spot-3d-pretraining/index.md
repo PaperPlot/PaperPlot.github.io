@@ -134,10 +134,6 @@ The authors conducted extensive experiments to evaluate SPOT's performance acros
 
 ### 1. Performance on nuScenes Detection
 
-![nuScenes Detection Results](1_chart.png)
-
-*Figure 2: Comparison of SPOT with other pre-training methods on various datasets and tasks*
-
 SPOT consistently outperforms other pre-training methods across different detectors (SECOND and CenterPoint) and metrics (mAP and NDS). For example, using 100% of Waymo pre-training data, SPOT improves SECOND's performance by 10.41% mAP and 12.69% NDS compared to training from scratch.
 
 ### 2. Performance on KITTI Detection
