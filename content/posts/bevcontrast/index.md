@@ -38,10 +38,6 @@ editPost:
 
 # BEVContrast: Self-Supervision in BEV Space for Automotive Lidar Point Clouds
 
-![BEVContrast Overview](0_overview_latex.png)
-
-*Figure 1: Overview of BEVContrast. Two point cloud views of the same scenes are encoded and projected on the BEV plane. One BEV is aligned to the other's coordinate frame by affine transformation and interpolation, and a loss contrasts the features in both BEV views.*
-
 ## TL;DR
 
 - BEVContrast is a simple yet effective self-supervised learning method for 3D point cloud processing in autonomous driving scenarios.
